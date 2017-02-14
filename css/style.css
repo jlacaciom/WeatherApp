@@ -1,0 +1,121 @@
+html,h1,h2,h3,h4,p,label,a{
+	font-family: 'Comfortaa', cursive !important;
+	
+}
+body{
+	color:white !important;
+}
+#bg{
+	-webkit-filter: blur(2px) contrast(50%);
+	-moz-filter: blur(2px) contrast(50%);
+	-o-filter: blur(2px) contrast(50%);
+	-ms-filter: blur(2px) contrast(50%);
+	filter: blur(2px) contrast(50%);
+ 	height: auto;
+   left: 0;
+   margin: 0;
+   min-height: 100%;
+   min-width: 674px;
+   padding: 0;
+   position: fixed;
+   top: 0;
+   width: 100%;
+   z-index: -1;
+	
+}
+
+a,a:hover{
+	text-decoration:none !important;
+	color:white !important;
+}
+#icon{
+	font-size:10em;
+}
+.center{
+	margin:0px auto;
+}
+.padding20{
+	padding:20px;
+}
+.padding10{
+	padding:10px;
+}
+.paddingL10{
+	padding-left:10px;
+}
+.icono{
+text-align:center;
+	width:100%;
+	
+}
+#temperatura{
+	font-size:80px;	
+	margin:0;
+}
+.padding0{
+	padding:0;
+}
+.margin0{
+	margin:0;
+}
+.light{
+	font-weight:300 !important;
+}
+.navbar-default {
+	border:none !important;
+}
+.bold{
+	font-weight:700 !important;
+}
+.content{
+	position:fixed;
+	left:0;
+	right:0;
+	top:0;
+	bottom:0;
+}
+.navbar-default .navbar-toggle{
+	border:none !important
+}
+.navbar-default .navbar-toggle .icon-bar{
+    background-color: #fff !important;
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: rgba(0,0,0,0.2) !important;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+     border-color: transparent !important;
+}
+.bg{
+	background:rgba(3,78,141,0.5) !important;
+}
+.footer{
+	position:fixed;
+	bottom:0;
+	height:160px;
+	width:100%;
+	background:rgba(3,78,141,0.3) !important;
+}
+.desktop{
+	display:block;
+}
+.mobile{
+	display:none;
+}
+.paddingB30{
+	margin-bottom:5px !important;
+}
+@media (max-width: 768px) {
+  .icono {
+    padding-top:10%;
+  }
+  .mobile{
+  display:block
+  }
+  .desktop{
+  display:none;
+  }
+  .paddingB30{
+  margin-bottom:50px !important;
+  }
+}
